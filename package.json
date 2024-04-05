@@ -1,0 +1,23 @@
+{
+  "name": "dockerize_react",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "index.js",
+  "main": "index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femakin01/CapitalizeFirstLetterofaString.git"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
